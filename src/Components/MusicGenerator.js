@@ -1,11 +1,10 @@
 import React from "react";
-// import "./MG/css/mdb.min.css";
-// import "./MG/css/boostrap.min.css";
-// import "./MG/css/style.min.css";
+import Navigation from "./Navigation";
 
 function MusicGenerator(){
     return (
         <div>
+            <Navigation/>
             {window.open("http://melodify.live/webapp/webapp.html")}
         </div>
     );
