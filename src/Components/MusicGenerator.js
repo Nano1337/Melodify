@@ -1,20 +1,12 @@
 import React from "react";
-// import Slider from "./Slider";
+// import "./MG/css/mdb.min.css";
+// import "./MG/css/boostrap.min.css";
+// import "./MG/css/style.min.css";
 
 function MusicGenerator(){
     return (
         <div>
-            <header>
-                <title>Melödify</title>
-            </header>
-            <body>
-            <div id="centerbox">
-                <p>"lmao"</p>
-            </div>
-            </body>
-            <footer>
-                <p>Copyright Melödify 2020</p>
-            </footer>
+            {window.open("http://melodify.live/webapp/webapp.html")}
         </div>
     );
 }
