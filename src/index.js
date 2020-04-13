@@ -9,7 +9,7 @@ import Research from "./Components/Research";
 import AboutUs from "./Components/AboutUs";
 
 ReactDOM.render(
-    <BrowserRouter basename={window.location.pathname || ''}>
+    <BrowserRouter basename="/">
       <div>
           <Navigation />
           <Switch>
